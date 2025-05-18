@@ -1,11 +1,13 @@
-Overview
- This project uses Python and well-known data science libraries to examine a dataset of automakers, investigating different factors like price, horsepower, fuel type, body style, and engine specifications.
+# Car Makers Data Analysis
 
- Data Source
- The CarMakers.csv file, which houses the dataset utilized for this investigation, includes a number of car properties, such as:
+## Overview
+This project uses Python and well-known data science libraries to examine a dataset of automakers, investigating different factors like price, horsepower, fuel type, body style, and engine specifications.
+
+## Data Source
+-The CarMakers.csv file, which houses the dataset utilized for this investigation, includes a number of car properties, such as:
  Car ID
 
-Manufacturer (Make)
+## Manufacturer (Make)
 Fuel Type
 Aspiration
 Number of Doors
@@ -15,7 +17,7 @@ Engine Location
 Performance Metrics (Horsepower, MPG, Engine Size, etc.)
 Price
 
-Libraries Used
+## Libraries Used
 The analysis is performed using the following Python libraries:
 pandas for data manipulation
 numpy for numerical computations
@@ -25,7 +27,7 @@ plotly for interactive plots
 datetime for time-based operations
 collections.Counter for frequency analysis
 
-Analysis Performed
+## Analysis Performed
 This project covers the following key insights:
 Average price by car make
 Horsepower distribution across body styles
@@ -49,8 +51,8 @@ Body-style with the highest number of entries
 Price comparison by drive-wheel configuration
 Peak RPM trend across makes
 
-Visualizations
+## Visualizations
 This analysis includes various charts and graphs to help visualize the trends and relationships between variables, such as scatter plots, histograms, bar charts, and interactive dashboards.
 
-Contributions
+## Contributions
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the dataset analysis.
